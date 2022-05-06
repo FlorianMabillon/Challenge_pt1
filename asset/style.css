@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* corps */
+body{
+    width: 100%;
+    height: auto;
+    background-color: #041821;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+/* font */
+header, #profil h2{
+    font-family: 'Yeseva One', cursive;
+    line-height: 1.5em;
+}
+nav, footer h2{
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+footer h3{
+    font-size: 0.6em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+/*  */
+header{
+    width: 100%;    
+    height: 9em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #041821;
+}
+header h2{
+    font-weight: 300;
+}
+#icone{
+    margin: 10px;
+}
+#icone img{
+    margin: 5px;
+}
+main{
+    width: 90%;
+    height: auto;
+    background-color: #041821;
+}
+#profil h2{
+    margin: 10px 0 10px 0;
+    font-size: 2em;
+    font-weight: 300;
+}
+span{
+    color: #1BD79E;
+}
+#profil p{
+    color: #808080;
+    
+}
+ul{
+    margin: 20px 0px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+#food{
+    background-color: #1BD79E;
+}
+#gallery{
+    width: auto;
+    height: auto;
+}
+#pics{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+#pics img{
+    width: 30%;
+    height: 30%;
+}
+footer{
+    line-height: 1.5em;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #041821;
+}
